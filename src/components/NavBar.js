@@ -6,15 +6,15 @@ function NavBar() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='nav-bar'>
             <Container>
-                <Navbar.Brand href="#home">Kevin Ralo</Navbar.Brand>
+                <Navbar.Brand>Kevin Ralo</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#about-me">About Me</Nav.Link>
-                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="#portfolio">Contact</Nav.Link>
+                        <Nav.Link href='/'>About Me</Nav.Link>
+                        <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
+                        <Nav.Link href='/contact'>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
