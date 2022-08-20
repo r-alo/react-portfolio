@@ -22,7 +22,7 @@ function App() {
       <NavBar />
         <Routes>
           <Route path='/' element={ <MainPage /> } />
-          <Route path='/portfolio' element={ <Portfolio /> } />
+          <Route path='/reactPortfolio' element={ <Portfolio /> } />
           <Route path='/contact' element={ <Contact /> } />
         </Routes>
       <Footer />
