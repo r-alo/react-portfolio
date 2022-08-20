@@ -1,7 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/esm/Container';
-import FloatingLabel from 'react-bootstrap/esm/FloatingLabel';
 
 function Contact () {
     return (
