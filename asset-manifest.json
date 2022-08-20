@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/r-alo/react-portfolio/static/css/main.a10edce5.css",
-    "main.js": "/r-alo/react-portfolio/static/js/main.95255cd5.js",
-    "static/media/galaxy.png": "/r-alo/react-portfolio/static/media/galaxy.bf55dfc92b5852cfceab.png",
-    "index.html": "/r-alo/react-portfolio/index.html",
-    "main.a10edce5.css.map": "/r-alo/react-portfolio/static/css/main.a10edce5.css.map",
-    "main.95255cd5.js.map": "/r-alo/react-portfolio/static/js/main.95255cd5.js.map"
+    "main.css": "/react-portfolio/static/css/main.44593e52.css",
+    "main.js": "/react-portfolio/static/js/main.95255cd5.js",
+    "static/media/galaxy.png": "/react-portfolio/static/media/galaxy.bf55dfc92b5852cfceab.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.44593e52.css.map": "/react-portfolio/static/css/main.44593e52.css.map",
+    "main.95255cd5.js.map": "/react-portfolio/static/js/main.95255cd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a10edce5.css",
+    "static/css/main.44593e52.css",
     "static/js/main.95255cd5.js"
   ]
 }
