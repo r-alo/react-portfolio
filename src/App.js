@@ -13,13 +13,9 @@ function App() {
   return (
 
     <div className="App">
-      <Container>
       <NavBar />
 
-      </Container>
-      
     </div>
-   
   );
 }
 
