@@ -1,6 +1,5 @@
-import Container
- from "react-bootstrap/esm/Container";
-function MainPage () {
+import Container from "react-bootstrap/esm/Container";
+function MainPage() {
     return (
         <Container>
         <div class="about-me">

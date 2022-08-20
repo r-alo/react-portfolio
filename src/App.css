@@ -48,6 +48,10 @@ p {
   color: #61dafb;
 }
 
+.no-link{
+  text-decoration: none;
+}
+
 .nav {
   background-color: var(--dark);
   opacity: 0.9;
@@ -102,6 +106,52 @@ p {
 
 .container{
   margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark);
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.footer a {
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.footer a:hover {
+  color: rgb(255, 75, 138);
+  transform: scale(1.2);
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer li {
+  margin-left: 50px;
+  list-style: none;
+}
+
+.logoGh {
+  height: 80px;
+  width: 80px;
+}
+
+.logoIg {
+  height: 50px;
+  width: 50px;
 }
 
 @keyframes App-logo-spin {
