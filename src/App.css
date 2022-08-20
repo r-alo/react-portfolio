@@ -99,6 +99,11 @@ p {
   color: var(--aquaLight);
 }
 
+
+.container{
+  margin-top: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
