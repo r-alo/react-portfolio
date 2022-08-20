@@ -1,3 +1,23 @@
+:root {
+  --dark: rgb(0, 0, 0);
+  --darkLight: rgb(23, 23, 23);
+  --aqua: rgb(5, 164, 176);
+  --aquaLight: rgb(2, 187, 220);
+}
+
+body {
+  background-color: var(--dark);
+  background-image: url(../public/assets/images/galaxy.png);
+  opacity: 80%;
+  color: var(--aqua);
+}
+
+p {
+  font-size: 250%;
+  color: var(--aquaLight);
+}
+
+
 .App {
   text-align: center;
 }
@@ -28,8 +48,55 @@
   color: #61dafb;
 }
 
-.nav-bar{
+.nav {
+  background-color: var(--dark);
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  border: 50px;
   margin-bottom: 20px;
+}
+
+.nav h1 {
+  display: block;
+}
+
+.nav h1:hover {
+  color: rgb(255, 75, 138);
+}
+
+.nav a {
+  display: block;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+
+.nav ul {
+  display: flex;
+  margin: 0 auto;
+}
+
+.nav li {
+  font-size: 130%;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+
+.nav a:hover {
+  color: rgb(255, 75, 138);
+  transform: scale(1.2);
+}
+
+.about-me{
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me h3 {
+  font-size: 400%;
+  color: var(--aquaLight);
 }
 
 @keyframes App-logo-spin {

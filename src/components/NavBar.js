@@ -4,18 +4,20 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='nav-bar'>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='nav'>
             <Container>
-                <Navbar.Brand>Kevin Ralo</Navbar.Brand>
+                    <a href="/" id="logo"><h1>Kevin Ralo</h1></a>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                     </Nav>
-                    <Nav>
-                        <Nav.Link href='/'>About Me</Nav.Link>
-                        <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
-                        <Nav.Link href='/contact'>Contact</Nav.Link>
-                    </Nav>
+                        <nav>
+                            <ul>
+                                <li><a href="/">About Me</a></li>
+                                <li><a href="/portfolio"> Portfolio</a></li>
+                                <li><a href="/contact"> Contact</a></li>
+                            </ul>
+                        </nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
