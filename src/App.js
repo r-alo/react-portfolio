@@ -21,12 +21,13 @@ function App() {
     <div className="App">
       <NavBar />
         <Routes>
-          <Route path='/' element={ <MainPage /> } />
-          <Route path='/reactPortfolio' element={ <Portfolio /> } />
-          <Route path='/contact' element={ <Contact /> } />
+          <Route path='/react-portfolio' element={ <MainPage /> } />
+          <Route path='/react-portfolio/projects' element={ <Portfolio /> } />
+          <Route path='/react-portfolio/contact' element={ <Contact /> } />
         </Routes>
       <Footer />
     </div>
+      
     </BrowserRouter>
   );
 }

@@ -13,9 +13,9 @@ function NavBar() {
                     </Nav>
                         <nav>
                             <ul>
-                                <li><a href="/">About Me</a></li>
-                                <li><a href="/portfolio"> Portfolio</a></li>
-                                <li><a href="/contact"> Contact</a></li>
+                                <li><a href="/react-portfolio">About Me</a></li>
+                                <li><a href="/react-portfolio/projects"> Portfolio</a></li>
+                                <li><a href="/react-portfolio/contact"> Contact</a></li>
                             </ul>
                         </nav>
                 </Navbar.Collapse>
