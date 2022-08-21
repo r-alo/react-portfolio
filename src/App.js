@@ -21,9 +21,9 @@ function App() {
     <div className="App">
       <NavBar />
         <Routes>
-          <Route path='/home' element={ <MainPage /> } />
-          <Route path='/home/projects' element={ <Portfolio /> } />
-          <Route path='/home/contact' element={ <Contact /> } />
+          <Route path='/react-portfolio' element={ <MainPage /> } />
+          <Route path='/projects' element={ <Portfolio /> } />
+          <Route path='/contact' element={ <Contact /> } />
         </Routes>
       <Footer />
     </div>

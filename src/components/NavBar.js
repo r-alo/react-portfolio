@@ -6,16 +6,16 @@ function NavBar() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='nav'>
             <Container>
-                    <a href="/" id="logo"><h1>Kevin Ralo</h1></a>
+                    <a href="/react-portfolio" id="logo"><h1>Kevin Ralo</h1></a>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                     </Nav>
                         <nav>
                             <ul>
-                                <li><a href="/home">About Me</a></li>
-                                <li><a href="/home/projects"> Portfolio</a></li>
-                                <li><a href="/home/contact"> Contact</a></li>
+                                <li><a href="/react-portfolio">About Me</a></li>
+                                <li><a href="/projects"> Portfolio</a></li>
+                                <li><a href="/contact"> Contact</a></li>
                             </ul>
                         </nav>
                 </Navbar.Collapse>
