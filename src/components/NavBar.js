@@ -14,8 +14,8 @@ function NavBar() {
                         <nav>
                             <ul>
                                 <li><a href="/home">About Me</a></li>
-                                <li><a href="/projects"> Portfolio</a></li>
-                                <li><a href="/contact"> Contact</a></li>
+                                <li><a href="/home/projects"> Portfolio</a></li>
+                                <li><a href="/home/contact"> Contact</a></li>
                             </ul>
                         </nav>
                 </Navbar.Collapse>
